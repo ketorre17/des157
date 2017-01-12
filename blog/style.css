@@ -1,0 +1,40 @@
+body{
+	background-color: #130848;
+	color:#2b0dbf;
+	margin: auto;
+	width: 50%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: center;
+}
+
+h1{
+	color:#c4b125;
+}
+
+section{
+
+}
+
+header{
+
+}
+
+section{
+}
+
+
+div{
+	float: left;
+	margin: 0 8px 0px 0px;
+}
+
+img{
+	margin: 10px 0 10px 0;
+}
+
+
+footer{
+	display: inline;
+	text-align: center;
+
+}
