@@ -1,34 +1,62 @@
+/*This is the css to style my portal for DES157. Assignment "studio1"*/
+
 body{
-	background-color: #130848;
-	color:#2b0dbf;
+	background-color: #201d48;
+	color: #eb596f;
 	margin: auto;
-	width: 50%;
+	width: 60%;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 section{
-
+	margin: auto;
+	width: 100%;
 }
 
 header{
+	/*background-color: #fff*/
+	margin: 50px 0px 0px 0px
 
 }
 
 section{
+		background-color: #0ff;
+		margin: 0px 0px 20px 0px;
 }
 
 h2{
-	color:#c4b125;
+	color: #bd9f22;
+	margin: 30px 0px 0px 20px;
+
 }
 
 div{
 	float: left;
-	margin: 0 8px 0px 0px;
+	margin: 20px 15px 50px 35px;
+	padding: 0px 0px 0px 0px;
+	/*background-color: #000;*/
+
 }
 
 
 footer{
-	display: inline;
+/*background-color:#00f;*/
 	text-align: center;
+	margin: 20px 0px 20px 0px;
+	padding: 0px 0px 0px 0px;
+}
 
+a{
+	color:#c4c0ff;
+	text-decoration: none;
+
+}
+
+a:link{
+	color:#c4c0ff;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#1bbf3c;
 }
