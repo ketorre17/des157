@@ -41,12 +41,8 @@ div{
 
 footer{
 /*background-color:#00f;*/
-<<<<<<< HEAD
 	position: static;
 	bottom: 50px;
-=======
-	position: fixed;
->>>>>>> origin/gh-pages
 	text-align: center;
 	margin: 20px 0px 20px 0px;
 	padding: 0px 0px 0px 0px;
