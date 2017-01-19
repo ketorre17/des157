@@ -18,7 +18,7 @@ h2{
 	color:#eb596f;
 }
 
-article {
+section {
 	margin: auto;
 	width: 100%;
 	min-width: 500px;
@@ -27,13 +27,8 @@ article {
 }
 
 
-img{
-	margin: 10px 0 10px 0;
-}
-
 
 footer{
-/*background-color:#00f;*/
 	position: static;
 	bottom: 50px;
 	text-align: center;
