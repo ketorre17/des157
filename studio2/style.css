@@ -1,0 +1,28 @@
+/* Katrina Torres / DES157 Winter2017 / 01-26-2017 */
+/* This is the style.css for the Madlibs exercise. Learning to process input and output */
+
+/* Reset the stylesheet */
+*{}
+
+body {
+  background-color: #666666;
+  color: #ffffff;
+}
+
+section{
+  background-color: #2952a3;
+  color: #ffcc99;
+}
+
+article {
+  background-color: #00802b;
+
+}
+
+div {
+  background-color: #ffffe6;
+  color: #000000;
+}
+
+
+/

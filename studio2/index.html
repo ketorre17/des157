@@ -1,0 +1,109 @@
+<!--Katrina Torres / DES157 Winter2017 / 01-26-2017 -->
+<!--This is the html for the Madlibs exercise. Learning to process input and output -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Inky's Tale</title>
+    <!-- link the style.css BEFORE the script.js-->
+    <link href="style.css" rel="stylesheet">
+    <!--best to put script here in the header -->
+     <script src="script.js"></script>
+  </head>
+
+<body>
+<!--- ******* HEADER *************************************** -->
+  <header>
+    <!--!!!!!!remove this display in css-->
+    <h1>Need to hide this</h1>
+
+  </header>
+
+
+
+<!-- *********Input Part************************************-->
+  <section>
+    <h2>Section of the Input form</h2>
+
+    <!--#1 set up at least 5 input blanks-->
+    <article>
+      <h3>Article of form</h3>
+      <!--Name form = "formA"(input form). USe this to refer to it in js-->
+      <form name="formA">
+
+        <!--1st input blank = User's Name. Use this a basic structure-->
+        <div>
+          <!--this is the label of the input blank. Visible to user.-->
+          <label>Your Alias</label>
+          <!--indicate the data-type the computer should expect.
+              Then what the name of the data is. To be referred to in the future-->
+          <input type="text" name="userName">
+        </div>
+
+        <!--2nd input blank = A sound effect-->
+        <div>
+          <label>Onomatopoeia (ex: "pow")</label>
+          <input type="text" name="soundEffect01">
+        </div>
+
+        <!--3rd input blank = A texture -->
+        <div>
+            <label>A texture</label>
+            <input type="text" name="texture">
+        </div>
+
+        <!--4th input blank = A Nickname -->
+        <div>
+            <label>A nickname</label>
+            <input type="text" name="nickName">
+        </div>
+
+        <!--5th input blank = A color -->
+        <div>
+          <label>A color</label>
+          <input type="text" name="colorA">
+        </div>
+
+        <!-- add Submit button to save inputs-->
+        <input type="submit" value="submit">
+        <!-- add Reset button to reset inputs and remove output -->
+        <input type="reset" value="reset">
+
+      </form>
+    </article>
+  </section>
+
+  <!--*********** Output. The story made from the inputs ********************* -->
+  <section>
+    <article>
+      <!-- give the paragraph <p> an id. So js can target it.-->
+      <p id="inkyStory"></p>
+      <p>the story should be before this</p>
+    </article>
+  </section>
+
+  <!--
+// 1.) get atleast 5 input blanks
+// 2.) have the reset work = cleans the blanks, and removes the output (story section)
+// 3.)
+// final.) put an error detection: if any of the regions are not filled, then an alert pops up, and the submit does not go through
+
+-->
+
+
+
+  <footer>
+    <!--ADD VALIDATIONS!!!!!!! -->
+  </footer>
+<!--
+links
+ -->
+
+ <!--ALWAYS REMEMBER TO link script.js (YOUR JAVASCRIPT FILE) before body close-->
+
+
+</body>
+ </html>
