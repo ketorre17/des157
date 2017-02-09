@@ -1,0 +1,86 @@
+
+<!--Katrina Torres | DES157 | Book Exercise Chp 14: Mouse Trail -->
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Book Exercise. Learning loops and time based js, based on position of the mouse </title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* code style of trail, color, and add position absolute */
+        /*class: mouseTrail */
+        /*note look @ code pens*/
+        .mouseTrail{
+          position: absolute;
+          height: 10px;
+          width: 10px;
+          background-color: green;
+        }
+
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            color: white;
+            background-color: #333;
+            font-size: 11px;
+            margin: 24px;
+            height: 500;
+        }
+
+        h1 {
+            margin-bottom: 24px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Chapter 14: Mouse Trail</h1>
+    <h2>open the console to see the results of the script</h2>
+    <footer>
+      <!--need to remember coding validations-->
+    </footer>
+    <script>
+        // need to first get position of the mouse
+        // need a collection of
+
+        // set up variable that holds the images/pixels being used as the trail
+        // not just a single value but an array of values, so use []
+        var pixies = [];
+
+        //need to also reset the loop, after a set amount of repetitions
+        // count+1=count shows the increase 1, for every repetition
+        for (var count = 0; count<10; count++){
+          //need to create html block, where the pixel will be held
+          var trailContainer = document.createElement("div");
+          // give the newly created "div a class name", so we can target it
+          trailContainer.className = "mouseTrail";
+          document.body.appendChild(trailContainer);
+          pixies.push(trailContainer);
+          console.log(trailContainer);
+        }
+
+        // need a variable to account for new made pixel part of the trail
+
+        var newbornPixie = 0;
+
+        //now need computer to listen and note the postion of the mouse everytime it is moved
+        addEventListener("mousemove", function(event){
+          var pixie = pixies[newbornPixie];
+          //need to displace position of trail pixels from the postion of the mouse, when the pixel appears
+          //got a bit stuck so I looked at the answers and tried to see if I could
+          // understand them
+          pixie.style.left = (event.pageX - 5) + "px";
+          pixie.style.top = (event.pageY - 5) + "px";
+          //dot.style.left=(event.pageX - 5)+"px";
+          //dot.style.top=(event.pageY - 5)+"px";
+          newbornPixie = (newbornPixie+ 1) % pixies.length;
+          console.log(newbornPixie);
+        });
+
+    </script>
+</body>
