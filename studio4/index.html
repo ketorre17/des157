@@ -18,33 +18,41 @@
 <!--- ******* HEADER *************************************** -->
   <header>
     <h1>Time to Make a Mysterious Potion</h1>
-
   </header>
 
 
   <section>
     <h2>Solutions and Mixtures</h2>
     <!--First need to loade images, and then give them ids so they can be targeted in js-->
-    <img src="images/beakerEmpt.png" alt="Empty beaker 1" height="400" width="400" >
-    <img src="images/beaker01Fill.png" alt="Beaker 1 filled with teal solution" height="400" width="400" >
-    <img src="images/flaskEmpt.png" alt="Empty Erlenmeyer Flask" height="500" width="400" >
-    <img src="images/flaskFill.png" alt="Erlenmeyer Flask filled with pink solution" height="500" width="400" >
-    <img src="images/beakerEmpt.png" alt="Empty beaker 2" height="400" width="400" >
-    <img src="images/beaker02Fill.png" alt="Beaker 2 filled with orange solution" height="400" width="400" >
 
-    <!--need to also load audio, mp3 and ogg version to be acessed by all browsers-->
-    <audio controls>
-      <source src="audio/boiling.ogg" type="audio/ogg">
-      <source src="audio/boiling.mp3" type="audio/mp3">
-      Your browser does not support this element.
-    </audio>
+    <div>
+      <img src="images/beakerEmpt.png" id="beakerPicEmpt01" alt="Empty beaker 1" height="150" width="150" >
+      <img src="images/beaker01Fill.png" id="beakerPicFill01" alt="Beaker 1 filled with teal solution" height="150" width="150" >
+      <p id="beaker01Tip"> HI THIS IS THE BEAKER 01 TIP!!</p>
+    </div>
+
+    <div>
+      <img src="images/flaskEmpt.png"  id="flaskPicEmpt" alt="Empty Erlenmeyer Flask" height="250" width="200" >
+      <img src="images/flaskFill.png"  id="flaskPicFill" alt="Erlenmeyer Flask filled with pink solution" height="250" width="200" >
+      <p id="flask00" class='tip'></p>
+      <!--need to also load audio, mp3 and ogg version to be acessed by all browsers-->
+      <audio controls>
+        <source src="audio/boiling.ogg" type="audio/ogg">
+        <source src="audio/boiling.mp3" type="audio/mp3">
+        Your browser does not support this element.
+      </audio>
+    </div>
+
+    <div>
+      <img src="images/beakerEmpt.png" id="beakerPicEmpt02" alt="Empty beaker 2" height="150" width="150" >
+      <img src="images/beaker02Fill.png"  id="beakerPicFill02" alt="Beaker 2 filled with orange solution" height="150" width="150" >
+      <p id="breaker02Tip" class='tip'></p>
+    </div>
+
 
   </section>
 
 
-  <section>
-
-  </section>
 
   <!--
 // 1.) get atleast 5 input blanks
@@ -70,4 +78,4 @@ links
 
 
 </body>
- </html>
+</html>

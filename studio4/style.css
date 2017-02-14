@@ -1,5 +1,5 @@
 /* Katrina Torres / DES157 Winter2017 / 01-26-2017 */
-/* This is the style.css for the Madlibs exercise. Learning to process input and output */
+/* This is the style.css for the Time is on my Side studio. Learning time based interactivity*/
 
 /* Reset the stylesheet */
 *{}
@@ -12,17 +12,50 @@ body {
 section{
   background-color: #2952a3;
   color: #ffcc99;
+  width: 1050px;
+  margin: auto;
 }
 
 article {
   background-color: #00802b;
-
+  color: #ffcc99;
 }
 
 div {
+  float:left;
   background-color: #ffffe6;
   color: #000000;
 }
 
+footer{
+  position:absolute;
+  bottom:0px;
+  left: 45%;
+}
 
-/
+
+#beaker01Tip {
+  background-color: green;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  opacity: 0;
+  transition: all 1s;
+}
+
+
+a{
+	color:#c4c0ff;
+	text-decoration: none;
+	background-color: #201d48;
+}
+
+a:link{
+	color:#c4c0ff;
+	text-decoration: none;
+	background-color: #201d48;
+}
+
+a:hover{
+	color:#1bbf3c;
+	background-color: #201d48;
+}

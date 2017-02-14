@@ -1,5 +1,5 @@
 // Katrina Torres / DES157 Winter2017 / 01-26-2017
-// This is the JavaScript (p5) for the Madlibs exercise. Learning to process input and output
+// This is the js for Time is on my side studio. Learning to tool tips and timers
 
 // use 'console.log()' and' open console window for troubleshooting
 
@@ -9,29 +9,53 @@ console.log('reading');
 document.addEventListener("DOMContentLoaded", function(event) {
     //shows that dom is loaded
     console.log("DOM fully loaded and parsed");
+  });
   //Have the data captured when user 'submits' this input on the form
   //"onsubmit" refers to the submit button in html. And the formA is the name of the form in html
-  document.formA.onsubmit = processForm;
 
-  //Define the process function. What happens when the input is processed.
-    function processForm() {
+  var beaker01 = document.getElementById('beakerPicEmpt01');
+  var beaker01Tip = document.getElementById('beaker01Tip');
+// add first beaker 01
 
-      //Store the named data from html to a named valiable in js
-      var userName = document.formA.userName.value;
-      var soundEffect01 = document.formA.soundEffect01.value;
-      var texture = document.formA.texture.value;
-      var nickName = document.formA.nickName.value;
-      var colorA = document.formA.colorA.value;
+//Need to pick the timer for the to appear
+  var tipTimer;
 
-      //Use inner html to concatenate a mesage and put it on the screen, in the html
-      //use the <p> id to tell js where to insert them message in the html
-      varinkyStory=document.getElementById('inkyStory');
-      inkyStory.innerHTML= "laaa " + userName + " THEN " + soundEffect01 + " THEN " + texture + " THEN " + nickName + " Finally " + colorA;
+function showBeaker01Tip() {
+    console.log('show 01 tip');
+    beaker01Tip.style.opacity = 1;
+  };
 
-
-      //prevent page from reloading, which would remover the saved input
-      return false;
-
-    }
-  //this is the terminator for the "dom" code
+  beaker01.addEventListener ('mouseover', function(){
+    console.log('mouseover on beaker01');
+    tipTimer = setTimeout(showEatTip, 1000);
   });
+
+
+
+beaker01.addEventListener('mouseout', function(){
+  console.log('mouse out on beaker01');
+  clearTimeout(tipTimer);
+  beaker01Tip.style.opacity = 0;
+});
+
+
+
+/*
+
+var eat = document.getElementById('eat');
+var eatTip = document.getElementById('eatTip');
+
+var tipTimer;
+
+
+eat.addEventListener ('mouseout', function(){
+  console.log('mouseout on eat');
+  clearTimeout(tipTimer);
+  eatTip.style.opacity = 0;
+});
+
+function showEatTip(){
+  console.log('showing msg');
+  eatTip.style.opacity = 1;
+}
+*/
