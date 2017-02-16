@@ -1,0 +1,32 @@
+/* Katrina Torres / DES157 Winter2017 / 02-16-2017 */
+/* This is the style.css for "Meet me at the library" exercising. Learning utilize a library (jsPDF)*/
+
+/*reset the style sheet and pre-styling of the page*/
+*{}
+
+body{
+  background-color: #666666;
+  color: #ffffff;
+}
+
+header{
+  background-color: #2952a3;
+  color: #ffcc99;
+}
+
+footer{
+  background-color: #00802b;
+  color: #000000;
+}
+
+a{
+
+}
+
+a:link{
+
+}
+
+a:hover{
+  
+}
