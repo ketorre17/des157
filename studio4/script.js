@@ -20,14 +20,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 //Need to pick the timer for the to appear
   var tipTimer;
 
-function showBeaker01Tip() {
-    console.log('show 01 tip');
-    beaker01Tip.style.opacity = 1;
-  };
 
   beaker01.addEventListener ('mouseover', function(){
     console.log('mouseover on beaker01');
-    tipTimer = setTimeout(showEatTip, 1000);
+    tipTimer = setTimeout(showBeaker01Tip, 1000);
   });
 
 
@@ -38,7 +34,10 @@ beaker01.addEventListener('mouseout', function(){
   beaker01Tip.style.opacity = 0;
 });
 
-
+function showBeaker01Tip() {
+    console.log('show 01 tip');
+    beaker01Tip.style.opacity = 1;
+  };
 
 /*
 
