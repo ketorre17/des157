@@ -18,10 +18,16 @@ document.addEventListener ("DOMContentLoaded", function(event){
     /*doc.text('string',x,y)
     doc=name of the pdf in js
     .text=type of input
-    
+    'string'=this is the text or string that is placed
+    x = x the position of the string on pdf
+    y = y the position of the string on pdf
     */
     doc.text('I AM THE PDF', 10, 10);
-    doc.text(looking, 50, 50)
+    doc.text(looking, 10, 30)
+    doc.text(descript, 10, 50)
+    doc.text(meet, 10, 70)
+
+
     doc.save('theAd.pdf');
 
     /*form x submit test*/
