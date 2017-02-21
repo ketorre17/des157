@@ -22,22 +22,23 @@ document.addEventListener ("DOMContentLoaded", function(event){
     x = x the position of the string on pdf
     y = y the position of the string on pdf
     */
+
     doc.text('I AM THE PDF', 10, 10);
-    doc.text(looking, 10, 30)
-    doc.text(descript, 10, 50)
-    doc.text(meet, 10, 70)
+    doc.text(looking, 10, 30);
+    doc.text(descript, 10, 50);
+    doc.text(meet, 10, 70);
 
 
     doc.save('theAd.pdf');
 
     /*form x submit test*/
-    var test01 = document.getElementById('test01');
+    /*var test01 = document.getElementById('test01');
     var test02 = document.getElementById('test02');
     var test03 = document.getElementById('test03');
 
     test01.innerHTML="Looking for: " + looking;
     test02.innerHTML="Must be: " +descript;
-    test03.innerHTML="if discovered, meet me at: " + meet;
+    test03.innerHTML="if discovered, meet me at: " + meet; */
 
     return false;
 
