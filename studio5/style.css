@@ -5,28 +5,98 @@
 *{}
 
 body{
-  background-color: #666666;
+  margin: auto;
+  text-align: center;
+  font-family: "Lucida Console", Monaco, monospace;
+  background-color: #d15788;
   color: #ffffff;
 }
 
 header{
-  background-color: #2952a3;
-  color: #ffcc99;
+  padding: 10px 0px 5px 0px;
+  background-color: #242A85;
+  color: #19c1ff;
 }
 
+h1{
+  font-size: 54px;
+}
+
+h2{
+  font-size: 32px;
+}
+
+section {
+}
+
+form{
+  text-align: left;
+  margin-left: 35%;
+}
+
+label{
+  font-size: 25px;
+}
+
+input[type="text"]{
+  background-color: #ffffff;
+  color: #242A85;
+  border: none;
+  font-size: 18px;
+  padding: 10px 5px 10px 5px;
+  border-radius: 5px;
+  margin: 10px 0px 10px 0px;
+
+}
+
+input[type="submit"],input[type="reset"]{
+  background-color: #ffffff;
+  color: #d15788;
+  border: none;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 20px;
+  margin: 40px 20px 40px 20px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+
+}
+
+/*probably need to use js to animate buttons*/
+
 footer{
-  background-color: #00802b;
-  color: #000000;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #242A85;
+  color: #19c1ff;
 }
 
 a{
+  text-decoration: none;
+  font-size: 20px;
 
 }
 
 a:link{
+  background-color: #242A85;
+  color: #19c1ff;
+}
 
+a:visited{
+  background-color: #242A85;
+  color: #19c1ff;
 }
 
 a:hover{
-  
+  background-color: #242A85;
+  color: #d15788;
 }
+
+/*
+Colors
+orange: #cc5e38
+pink: #d15788
+purple: 7018a3
+dark blue: #242A85
+light blue: #19c1ff
+ */
