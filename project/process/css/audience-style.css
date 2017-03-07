@@ -31,10 +31,11 @@ section {
 	width: 100%;
 	min-width: 500px;
 	max-width: 600px;
-	color:#c4c0ff;
 }
 
-
+p{
+	color:#c4c0ff;
+}
 
 footer{
 	position: static;
