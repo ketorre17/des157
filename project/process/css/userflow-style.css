@@ -1,0 +1,51 @@
+body{
+	background-color: #201d48;
+	color: #eb596f;
+	margin: auto;
+	width: 60%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+header{
+text-align: center;
+}
+
+h1{
+	color:#c4b125;
+}
+
+h2{
+	color:#eb596f;
+}
+
+section {
+	margin: auto;
+	width: 100%;
+	min-width: 500px;
+	max-width: 600px;
+	color:#c4c0ff;
+}
+
+
+
+footer{
+	position: static;
+	bottom: 50px;
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+a{
+	color:#c4c0ff;
+	text-decoration: none;
+}
+
+a:link{
+	color:#c4c0ff;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#1bbf3c;
+}
