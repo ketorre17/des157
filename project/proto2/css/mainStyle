@@ -7,14 +7,13 @@
   </head>
 
   <body>
-    <header>
-      <h1>EduWhut</h1>
-    </header>
+
+    <h1>EduWhut</h1>
 
     <!--Add gif for loading-->
     <h3>loading...</h3>
     <nav>
-      <ul id="openNav">
+      <ul>
         <li><a href="savedInfo.html">Saved Info</a></li>
         <li><a href="addInfo.html">Add Info</a></li>
         <li><a href="setting.html">Settings</a></li>
@@ -22,7 +21,7 @@
     </nav>
 
     <footer>
-      <ul id="helpCompany">
+      <ul>
         <li><a href="#">Help</a></li>
         <li><a href="#">Site</a></li>
         <li><a href="#">Creators</a></li>

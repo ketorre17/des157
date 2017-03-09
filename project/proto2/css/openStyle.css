@@ -1,0 +1,86 @@
+/* Reset the stylesheet */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin:auto;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  min-width: 320px;
+  min-height: 568px;
+  max-width: 320px;
+  max-height: 568px;
+  background-color: #666666;
+  color: #ffffff;
+}
+
+header{
+  text-align: center;
+}
+
+h1{
+  font-size: 100px;
+  font-weight: bold;
+}
+
+section{
+  background-color: #2952a3;
+  color: #ffcc99;
+}
+
+article {
+  background-color: #00802b;
+
+}
+
+div {
+  background-color: #ffffe6;
+  color: #000000;
+}
+
+/*Main Navigation*/
+
+nav{
+  background-color: red;
+  color: pink;
+}
+
+ul{
+  list-style: none;
+  margin: auto;
+}
+
+#openNav {
+  display: block;
+  background-color: red;
+  font-size: 60px;
+}
+#openNav li{
+  padding: 10px 10px 10px 10px;
+  margin: 20px 0px 20px 0px;
+  background-color: green;
+}
+
+
+/*Home Footer*/
+#helpCompany{
+  margin: auto;
+}
+
+#helpCompany li {
+  margin:10px 25px 10px 25px;
+  display: inline;
+  padding: 10px 10px 10px 10px;
+  background-color: yellow;
+}
+
+footer{
+  margin:auto;
+  text-align:center;
+  position: fixed;
+  bottom: 50px;
+}
