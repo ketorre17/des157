@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: "lores-9-plus-narrow", Helvetica, sans-serif;
   margin:auto;
   text-align: center;
   width: 100%;
@@ -19,12 +19,14 @@ body {
 }
 
 header{
+  font-family: "lores-9-plus-narrow",sans-serif;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 h1{
-  font-size: 72px;
+  font-size: 62px;
   font-weight: bold;
   color: #B2A80F;
 }
@@ -104,5 +106,9 @@ a{
 }
 
 a:hover{
-  color: gray;
+  color: #B2A80F;
+}
+
+a:active{
+    color: #B2A80F;
 }

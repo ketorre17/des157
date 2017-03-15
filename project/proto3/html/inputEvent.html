@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>EduWhut 0.1</title>
     <link href="../css/inputEventStyle.css" rel="stylesheet">
+    <script src="https://use.typekit.net/del2vrn.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </head>
 
   <body>
@@ -19,21 +21,42 @@
         </nav>
     </header>
 
-  <form >
+  <form name="allEventForm" >
       <section id="title">
         <h2>Title</h2>
-        <form>
+        <form name="titleForm">
           <div>
+            <label> Name of Event</label>
+            <input type="text" name="eventName">
           </div>
         <form>
       </section>
 
       <section id="date">
         <h2>Date</h2>
+        <form name="dateForm">
+          <div>
+            <label> Month</label>
+            <input type="text" name="eventMonth">
+          </div>
+          <div>
+            <label> Day</label>
+            <input type="text" name="eventDay">
+          </div>
+          <div>
+            <label> Year</label>
+            <input type="text" name="eventYear">
+          </div>
+        <form>
       </section>
 
       <section id="location">
         <h2>Location</h2>
+        <form name="locationForm">
+        <div>
+          <label>Where</label>
+          <input type="text" name="eventLocation">
+        </div>
       </section>
 
       <section id="about">
@@ -44,14 +67,14 @@
         <h2>Tags</h2>
       </section>
 
-      <section id="other">
+      <!--<section id="other">
         <h2>Other</h2>
-      </section>
+      </section> -->
 
       <footer id="subCancel">
         <ul>
           <li id="mSubmit"><a href="confirmEvent.html">Submit</a></li>
-          <li id="mPDF"><a href="infoType.html">PDF</a></li>
+          <li id="mPDF"><input type="submit" value="submit"> to PDF</li>
           <li id="mCancel"><a href="infoType.html">Cancel</a></li>
         </ul>
       </footer>

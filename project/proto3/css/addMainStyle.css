@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: "lores-15-bold-alt-oakland",Helvetica, sans-serif;
   margin:auto;
   text-align: center;
   width: 100%;
@@ -14,7 +14,7 @@ body {
   min-height: 568px;
   max-width: 320px;
   max-height: 568px;
-  background-color: #white;
+  background-color: white;
   color: #ffffff;
 }
 
@@ -34,6 +34,7 @@ header{
 h1{
   font-size: 56px;
   font-weight: bold;
+  font-family: "lores-9-plus-narrow", Helvetica, sans-serif;
 }
 
 section{
@@ -122,5 +123,9 @@ a{
 }
 
 a:hover{
-  color: gray;
+  color: #B2A80F;
+}
+
+a:active{
+  color: #B2A80F;
 }

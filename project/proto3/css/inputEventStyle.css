@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: "lores-15-bold-alt-oakland",Helvetica, sans-serif;
   margin:auto;
   text-align: center;
   width: 100%;
@@ -28,15 +28,16 @@ header{
 h1{
   font-size: 56px;
   font-weight: bold;
+  font-family: "lores-9-plus-narrow", Helvetica, sans-serif;
 }
 
 section{
-  width:120px;
+  width:130px;
   float:left;
   font-size: 20px;
   background-color: #95222D;
   color: white;
-  margin: 20px 10px 20px 10px;
+  margin: 10px 5px 10px 5px;
   padding: 20px 10px 20px 10px;
 }
 
@@ -93,7 +94,7 @@ nav{
 }
 
 #subCancel li {
-  margin:10px 30px 10px 20px;
+  margin:10px 12px 10px 15px;
   display: inline;
   padding: 10px 10px 10px 10px;
 }
@@ -124,5 +125,9 @@ a{
 }
 
 a:hover{
-  color: gray;
+  color: #B2A80F;
+}
+
+a:active{
+    color: #B2A80F;
 }
