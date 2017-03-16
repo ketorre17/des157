@@ -4,6 +4,39 @@ console.log('reading');
 //dom code
 document.addEventListener ("DOMContentLoaded", function(event){
   console.log("DOM fully loaded and parsed");
+
+  //section animation
+  var title = document.getElementById('title');
+  var title01 = document.getElementById('title01');
+  var tipTimer;
+
+  title.addEventListener ('onclick', function(){
+    console.log('onclick title');
+    tipTimer = setTimeout(showTitle01, 300);
+  });
+
+  function showTitle01(){
+    console.log('it is working');
+  }
+
+  /*
+  eat.addEventListener ('mouseon', function(){
+    console.log('mouseout on eat');
+    clearTimeout(tipTimer);
+    eatTip.style.opacity = 0;
+  });
+
+  function showEatTip(){
+    console.log('showing msg');
+    eatTip.style.opacity = 1;
+  }
+  */
+
+
+  //end of section animation
+
+
+  //beginging of pdf script
   document.allEventForm.onsubmit = processForm;
   function processForm() {
     //start variables
@@ -107,9 +140,8 @@ document.addEventListener ("DOMContentLoaded", function(event){
     test03.innerHTML="if discovered, meet me at: " + meet; */
 
     return false;
-
-
   }
+  //End of pdf js
 })
 
 
