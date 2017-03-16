@@ -1,0 +1,131 @@
+/* Reset the stylesheet */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "lores-15-bold-alt-oakland",Helvetica, sans-serif;
+  margin:auto;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  min-width: 320px;
+  min-height: 568px;
+  max-width: 320px;
+  max-height: 568px;
+  background-color: white;
+  color: #ffffff;
+}
+
+header{
+  padding-top: 20px;
+  text-align: center;
+  background-color: #2952a3;
+}
+
+h1{
+  font-size: 56px;
+  font-weight: bold;
+  font-family: "lores-9-plus-narrow",sans-serif;
+}
+
+section{
+  background-color: #2952a3;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+article {
+  background-color: #2952A3;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align:left;
+  font-size: 12px;
+
+}
+
+div {
+  background-color: #ffffe6;
+  color: #000000;
+}
+
+/*Main Navigation*/
+
+nav{
+  padding-top:15px;
+  padding-bottom: 10px;
+}
+
+ul{
+  list-style: none;
+  margin: auto;
+}
+nav{
+  margin:auto;
+  text-align:center;
+}
+
+#mainNav {
+  font-size: 20px;
+}
+#mainNav li{
+  display: inline;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 0px 20px 0px;
+}
+
+#navSaved{
+  background-color: #2952A3;
+}
+
+#navAdd{
+  background-color: #95222D;
+}
+
+#navSet{
+  background-color: #501399;
+}
+
+
+/*Home Footer*/
+#subCancel{
+  margin: auto
+}
+
+#subCancel li {
+  margin:10px 125px 10px 20px;
+  display: inline;
+  padding: 10px 10px 10px 10px;
+}
+
+footer{
+  margin:auto;
+  text-align:center;
+  position: fixed;
+  bottom: 50px;
+}
+
+#mSubmit{
+  background-color: #278C2F;
+}
+
+#mCancel{
+  background-color: #E0851E;
+}
+
+/*Link format*/
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: #B2A80F;
+}
+
+a:active{
+    color: #B2A80F;
+}
